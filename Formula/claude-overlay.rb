@@ -13,6 +13,8 @@ class ClaudeOverlay < Formula
     bin.install "bin/claude-overlay"
     (lib/"claude-overlay").install "lib/engine.py"
     (lib/"claude-overlay/presets").install Dir["lib/presets/*.json"]
+    bash_completion.install "completions/claude-overlay.bash" => "claude-overlay"
+    zsh_completion.install "completions/claude-overlay.zsh" => "_claude-overlay"
   end
 
   def caveats
