@@ -4,7 +4,7 @@ class ClaudeOverlay < Formula
   # version and sha256 are auto-updated by the release workflow
   version "0.1.0"
   url "https://github.com/mzmmoazam/claude-overlay/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "PLACEHOLDER"
+  sha256 "7c11be6afc44692677b04009693b505374d7860b5979dd451e75801361c198f5"
   license "MIT"
 
   depends_on "python@3"
