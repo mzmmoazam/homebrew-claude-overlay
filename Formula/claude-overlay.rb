@@ -2,9 +2,9 @@ class ClaudeOverlay < Formula
   desc "Manage project-level Claude Code config for custom model providers"
   homepage "https://github.com/mzmmoazam/claude-overlay"
   # version and sha256 are auto-updated by the release workflow
-  version "0.3.0"
+  version "0.4.0"
   url "https://github.com/mzmmoazam/claude-overlay/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "c21102c6820a99971435d59dde3693938f58ca894fbce3bddeabab85027de1ef"
+  sha256 "61013d55c9cb68c115983d675cc426452345cd8591d04ea6eccec5301aa4d779"
   license "MIT"
 
   depends_on "python@3"
